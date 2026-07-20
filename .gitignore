@@ -1,0 +1,12 @@
+# Archivos de compilación de .NET
+bin/
+obj/
+
+# Archivos auxiliares de compilación de LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
