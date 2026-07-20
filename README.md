@@ -4,18 +4,18 @@ Este repositorio contiene la solución a la **Guía de Prácticas #02** de la as
 
 ---
 
-##  Características Principales
+## 🚀 Características Principales
 
 *   **Arquitectura de Doble Pila**: Implementación de dos pilas dinámicas de tipo `Stack<PaginaWeb>` para modelar:
     *   `_historialAtras`: Guarda el historial de navegación para retroceder.
     *   `_historialAdelante`: Almacena de forma temporal los sitios retrocedidos para permitir adelantar páginas.
 *   **Interfaz de Consola Interactiva (CLI)**: Menú interactivo estructurado con colores y validaciones de datos para realizar visitas, retrocesos, avances y visualización del estado interno de las pilas.
 *   **Módulo de Benchmark**: Simulación automatizada con **100,000 elementos** que calcula los tiempos de ejecución promedio en **nanosegundos** y comprueba empíricamente la complejidad temporal constante $O(1)$ de las pilas.
-*   **Reporte en LaTeX integrado**: Informe académico estructurado (`Informe.tex`) y compilado a PDF (`Informe.pdf`) con referencias APA 7ma Edición.
+*   **Reporte Académico**: Reporte final compilado en formato PDF (`PE_CAHUASQUI.pdf`) que contiene la fundamentación teórica, análisis de complejidad y resultados de la práctica.
 
 ---
 
-##  Arquitectura del Historial
+## 📊 Arquitectura del Historial
 
 La navegación web bidireccional se modela a través de la interacción de dos pilas independientes y la página activa actual:
 
@@ -122,11 +122,10 @@ lo que valida teórica y experimentalmente que Stack posee un rendimiento O(1).
 
 ---
 
-##  Compilación y Ejecución
+## 🛠️ Compilación y Ejecución
 
 ### Requisitos previos
 *   SDK de .NET 8.0 o superior instalado.
-*   Motor de LaTeX (`pdflatex`) si se desea compilar el informe formal.
 
 ### C# - Compilar y Correr
 Para ejecutar el **menú interactivo por consola**:
@@ -143,15 +142,9 @@ Para ejecutar la **demostración automatizada** (incluyendo el benchmark de 100k
 dotnet run -- --demo
 ```
 
-### LaTeX - Compilar Reporte Académico
-Para generar el archivo `Informe.pdf` a partir del código fuente de LaTeX:
-```bash
-pdflatex Informe.tex
-```
-
 ---
 
-##  Información del Estudiante
+## 🎓 Información del Estudiante
 
 *   **Institución**: Universidad Estatal Amazónica
 *   **Asignatura**: Estructura de Datos
